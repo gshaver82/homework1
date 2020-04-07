@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en-us">
 
+<!-- ~~~~~~~~~
+My notes are going to be like this for mostly anything, I'll use the 
+* for extra mile things and the 
+== for dope things I see 
+~~~~~~~~~ -->
+
+
 <head>
     <meta charset="UTF-8" />
     <link rel="stylesheet" href="./assets/css/style.css">
@@ -9,6 +16,10 @@
 
 <body>
     <header>
+      <!-- ~~~~~~~~~
+      I see that you changed this, but it wouldve been better to just take out teh old <span>
+      and in this case the <mark> you inserted instead
+      ~~~~~~~~~ -->
         <h1>Hori<mark>seo</mark>n</h1>
         <nav>
             <a href="#search-engine-optimization">Search Engine Optimization</a>
@@ -16,6 +27,26 @@
             <a href="#social-media-marketing">Social Media Marketing</a>
         </nav>
     </header>
+
+
+    <!-- ~~~~~~~~~
+    Definitely was confused by the usage of this <main>. usually it holds the main copy content
+    of the website. I would have switched it out for the next <section> you have and replace
+    this tag with a <figure>. Additionally, the figure tags you have under the <section> are a bit confusing.
+    You also don't have to replace the <p> with <figcaption>.
+
+      My Suggestion:
+      <figure></figure>
+        <main>
+          <section>
+            <img/>
+            <h3>
+            <p>
+          </section>
+          <section></section>
+          <section></section>
+        </main>
+    ~~~~~~~~~ -->
     <main></main>
     <section>
         <figure>
@@ -40,6 +71,11 @@
             </figcaption>
         </figure>
     </section>
+
+
+    <!-- ~~~~~~~~~
+    The aside is good, but it's children I would do it like my suggestion above
+    ~~~~~~~~~ -->
     <aside>
         <figure>
             <h3>Lead Generation</h3>
